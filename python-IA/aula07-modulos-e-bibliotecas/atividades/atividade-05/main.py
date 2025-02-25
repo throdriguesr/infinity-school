@@ -1,10 +1,3 @@
-'''
-Desenvolva um programa que permita ao usuário converter entre diferentes unidades de medida, 
-como metros para pés, quilogramas para libras, ou Celsius para Fahrenheit. 
-Use módulos que contenham funções de conversão.
-
-'''
-
 import conversor
 
 print("Conversor de Unidades")
