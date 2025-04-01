@@ -17,4 +17,4 @@ for produto, quantidade in vendas.items():
     if quantidade == maior_venda:
         mais_vendidos.append(produto)
 
-print("Produto(s) mais vendido(s):", mais_vendidos)
+print("\nProduto(s) mais vendido(s):", mais_vendidos)

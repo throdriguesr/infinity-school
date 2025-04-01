@@ -9,4 +9,4 @@ def eh_palindromo(palavra):
 palavras = input("Digite palavras separadas por espaço: ").split()
 palindromos = [p for p in palavras if eh_palindromo(p)]
 
-print("Palavras palíndromas:", palindromos if palindromos else "Nenhuma")
+print("\nPalavras palíndromas:", palindromos if palindromos else "Nenhuma")
