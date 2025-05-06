@@ -1,0 +1,53 @@
+<!--
+ATIVIDADE PRÁTICA
+
+Atividade: Estrutura de Blocos e Elementos Inline
+
+Enunciado: Crie uma página HTML simples que simule um cartão de informações de perfil. Utilize a tag <div> para separar as seções do cartão e a tag <span> para destacar elementos inline, como o nome e a idade.
+
+Instruções:
+1. Crie uma estrutura de cartão de perfil utilizando <div> para delimitar as seções do cartão, como a imagem de perfil, o nome e a descrição.
+
+2. Dentro de uma <div>, insira um parágrafo (<p>) com um texto que contenha o nome e a idade da pessoa. Utilize a tag <span> para destacar o nome e a idade no meio do parágrafo.
+
+3. Adicione uma imagem (<img>) dentro de outra <div> para representar a foto do perfil.
+
+4. No final, o cartão deve ter a seguinte estrutura:
+    a. Uma seção para a imagem.
+    b. Uma seção para o nome e a idade, onde o nome e a idade estão destacados usando   <span>.
+    c. Uma seção para uma breve descrição.
+
+Objetivo:
+Compreender a diferença entre blocos de nível de bloco (<div>) e elementos inline (<span>).
+
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cartão de Perfil</title>
+</head>
+<body>
+     <!-- Cartão de Perfil -->
+  <div style="border: 1px solid #ccc; width: 300px; padding: 16px; font-family: Arial;">
+    
+    <!-- Seção da Imagem -->
+    <div>
+      <img src="https://i.pinimg.com/736x/d1/e3/d2/d1e3d2a12bc3d0221898c4391dffcfff.jpg" alt="Foto de Perfil" style="width: 100%;">
+    </div>
+
+    <!-- Seção Nome e Idade -->
+    <div>
+      <p>Meu nome é <span style="font-weight: bold;">Thiago</span> e tenho <span style="color: blue;">30 anos</span>.</p>
+    </div>
+
+    <!-- Seção de Descrição -->
+    <div>
+      <p>Sou apaixonado por tecnologia e estudo Engenharia de Software.</p>
+    </div>
+
+  </div>
+</body>
+</html>
