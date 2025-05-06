@@ -1,0 +1,76 @@
+<!--
+ATIVIDADE PRÁTICA
+
+Atividade: Criação de Estrutura de Página com Tags Semânticas
+
+Enunciado: Crie uma página HTML simples que simule a estrutura básica de um site de notícias. Utilize as tags semânticas para organizar o conteúdo.
+
+Instruções:
+1. Cabeçalho (<header>): Crie um cabeçalho que contenha o nome do site (pode ser um título <h1>).
+
+2. Navegação (<nav>): Adicione uma barra de navegação simples dentro do cabeçalho, com links para diferentes seções do site (exemplo: Home, Notícias, Contato).
+
+3. Conteúdo Principal (<main>): Dentro da tag <main>, organize o conteúdo principal da página.
+a.Seção de Destaques (<section>): Crie uma seção destacada com um artigo principal.
+b.Artigos (<article>): Dentro da seção, adicione um artigo com título, subtítulo e texto.
+
+4. Barra Lateral (<aside>): Adicione uma barra lateral que contenha links para outros artigos ou anúncios.
+
+5.Rodapé (<footer>): Crie um rodapé para a página com informações de contato ou direitos autorais.
+
+Objetivo:
+Aprender a usar as tags semânticas HTML5 para estruturar uma página web de forma correta e organizada.
+
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portal de Notícias</title>
+</head>
+<body>
+     <!-- Cabeçalho -->
+  <header>
+    <h1>Portal de Notícias</h1>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Notícias</a></li>
+        <li><a href="#">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Conteúdo Principal -->
+  <main>
+    <!-- Seção de Destaques -->
+    <section>
+      <article>
+        <h2>Descoberta Científica Revoluciona Medicina</h2>
+        <h3>Pesquisadores encontram nova forma de tratar doenças genéticas</h3>
+        <p>
+          Um grupo de cientistas desenvolveu uma técnica inovadora que promete mudar o tratamento de diversas doenças genéticas. A pesquisa foi publicada na revista Nature e já está sendo testada em laboratório.
+        </p>
+      </article>
+    </section>
+  </main>
+
+  <!-- Barra Lateral -->
+  <aside>
+    <h2>Outros Artigos</h2>
+    <ul>
+      <li><a href="#">Tecnologia 5G no Brasil</a></li>
+      <li><a href="#">Economia em Alta: entenda os motivos</a></li>
+      <li><a href="#">Dicas de Saúde para o Inverno</a></li>
+    </ul>
+  </aside>
+
+  <!-- Rodapé -->
+  <footer>
+    <p>&copy; 2025 Portal de Notícias - Todos os direitos reservados.</p>
+    <p>Contato: contato@portalnoticias.com.br</p>
+  </footer>
+</body>
+</html>
