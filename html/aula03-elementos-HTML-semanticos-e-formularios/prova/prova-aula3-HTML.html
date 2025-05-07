@@ -1,0 +1,40 @@
+<!--
+Prova H&CIA - Elementos HTML Semânticos e Formulários
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de Cadastro</title>
+</head>
+<body>
+    <h2>Cadastro de Usuário</h2>
+    <form action="#" method="POST">
+        <label for="nome">Nome:</label><br>
+        <input type="text" id="nome" name="nome"><br><br>
+
+        <label for="email">E-mail:</label><br>
+        <input type="email" id="email" name="email"><br><br>
+
+        <label for="senha">Senha:</label><br>
+        <input type="password" id="senha" name="senha"><br><br>
+
+        <label for="pais">País:</label><br>
+        <select id="pais" name="pais">
+            <option value="">Selecione</option>
+            <option value="br">Brasil</option>
+            <option value="us">Estados Unidos</option>
+            <option value="pt">Portugal</option>
+            <option value="ca">Canadá</option>
+        </select><br><br>
+
+        <label for="mensagem">Mensagem:</label><br>
+        <textarea id="mensagem" name="mensagem" rows="4" cols="40"></textarea><br><br>
+
+        <button type="submit">Enviar</button>
+        <button type="reset">Limpar</button>
+    </form>
+</body>
+</html>
