@@ -1,17 +1,29 @@
-Repositório de Exercícios e Projetos da Infinity School
+# 🧠 Repositório de Exercícios e Projetos – Infinity School
 
-Este repositório contém todos os exercícios, desafios e projetos que estou realizando durante minha jornada de aprendizado na Infinity School. O objetivo é documentar e organizar todos os conceitos aprendidos em programação, desde lógica de programação até temas mais avançados.
+Este repositório reúne todos os **exercícios, desafios e projetos** desenvolvidos durante minha jornada de aprendizado na **Infinity School**. O principal objetivo é **documentar e organizar os conceitos estudados**, desde fundamentos da lógica de programação até tópicos mais avançados de desenvolvimento.
 
-A cada exercício resolvido, adiciono a solução ao repositório, criando um portfólio do meu progresso e permitindo a revisão e aperfeiçoamento contínuo. Acredito que a prática constante e a resolução de problemas são fundamentais para o meu crescimento como desenvolvedor.
+Cada solução registrada aqui representa um passo no meu progresso como desenvolvedor, funcionando como um **portfólio prático** e também como uma forma de revisar e aprimorar constantemente meus conhecimentos.
 
-Se você também está na Infinity School ou gosta de desafios de programação, fique à vontade para explorar, contribuir ou utilizar os exercícios como inspiração para o seu próprio aprendizado.
+## ✨ Objetivos
+- Consolidar o aprendizado por meio da prática constante
+- Estimular a resolução de problemas reais
+- Criar um histórico evolutivo de projetos e desafios
+- Compartilhar conhecimento com a comunidade
 
-Tecnologias utilizadas:
+## 🚀 Tecnologias e Conceitos Abordados
+- Lógica de Programação  
+- Algoritmos  
+- Python  
+- HTML & CSS  
+- JavaScript  
+- Estruturas de Dados  
+- Testes de Código
 
-Lógica de programação
-Algoritmos
-Python
-Estruturas de dados
-Testes de código
+## 🤝 Contribuição
+Se você também estuda na Infinity School ou curte desafios de programação, sinta-se à vontade para:
+- Explorar os exercícios
+- Sugerir melhorias
+- Usar como inspiração no seu próprio aprendizado
 
-Licença: MIT
+## 📄 Licença
+Este projeto está licenciado sob a licença **MIT** – veja o arquivo `LICENSE` para mais detalhes.
