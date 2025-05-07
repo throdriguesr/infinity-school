@@ -1,0 +1,69 @@
+<!--
+ATIVIDADE PRÁTICA
+
+Atividade: Criação de Formulário de Cadastro
+
+Enunciado: Crie uma página HTML que contenha um formulário de cadastro simples. Utilize as tags apropriadas para criar campos de entrada de dados, botões e uma área de texto.
+
+Instruções:
+1.Formulário (<form>): Crie um formulário com ação fictícia (por exemplo, action="#") e método POST.
+
+2.Campo de Nome: Adicione um campo de entrada de texto (<input type="text">) com um rótulo (<label>) para o nome do usuário.
+
+3.Campo de E-mail: Adicione um campo de entrada de e-mail (<input type="email">) com um rótulo.
+
+4.Campo de Senha: Adicione um campo de entrada de senha (<input type="password">) com um rótulo.
+
+5.Campo de Seleção (<select>): Adicione uma lista suspensa com várias opções (<option>) para que o usuário selecione o país.
+
+6.Campo de Mensagem: Adicione uma área de texto (<textarea>) para que o usuário possa inserir uma mensagem ou descrição.
+
+7.Botões: Adicione um botão para enviar o formulário (<button type="submit">) e outro para limpar os campos (<button type="reset">).
+
+Objetivo: 
+Aprender a utilizar os elementos básicos de formulários HTML para coletar informações do usuário.
+
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de Cadastro</title>
+</head>
+<body>
+    <h2>Cadastro de Usuário</h2>
+    <form action="#" method="POST">
+        <!-- Campo Nome -->
+        <label for="nome">Nome:</label><br>
+        <input type="text" id="nome" name="nome"><br><br>
+
+        <!-- Campo E-mail -->
+        <label for="email">E-mail:</label><br>
+        <input type="email" id="email" name="email"><br><br>
+
+        <!-- Campo Senha -->
+        <label for="senha">Senha:</label><br>
+        <input type="password" id="senha" name="senha"><br><br>
+
+        <!-- Campo País -->
+        <label for="pais">País:</label><br>
+        <select id="pais" name="pais">
+            <option value="">Selecione</option>
+            <option value="br">Brasil</option>
+            <option value="us">Estados Unidos</option>
+            <option value="pt">Portugal</option>
+            <option value="ca">Canadá</option>
+        </select><br><br>
+
+        <!-- Campo Mensagem -->
+        <label for="mensagem">Mensagem:</label><br>
+        <textarea id="mensagem" name="mensagem" rows="4" cols="40"></textarea><br><br>
+
+        <!-- Botões -->
+        <button type="submit">Enviar</button>
+        <button type="reset">Limpar</button>
+    </form>
+</body>
+</html>
