@@ -11,6 +11,9 @@ Tecnologias utilizadas:
 Lógica de programação
 Algoritmos
 Python
+HTML
+CSS
+JavaScript
 Estruturas de dados
 Testes de código
 
