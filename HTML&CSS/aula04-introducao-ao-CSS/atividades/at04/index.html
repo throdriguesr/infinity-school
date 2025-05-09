@@ -1,0 +1,85 @@
+<!--
+ATIVIDADE PRÁTICA
+
+Atividade: 
+Criação de Currículo com Estilização Básica e Estrutura Semântica
+
+Enunciado: 
+Crie uma página HTML com um currículo simples (Ou refaça um existente) que inclua uma imagem de perfil, informações básicas, experiência profissional e formação acadêmica. 
+Use CSS para estilizar o fundo, fontes, tamanhos, espaçamentos, bordas e aplicar arredondamento. 
+Organize o conteúdo usando seções semânticas e não semânticas.
+
+Instruções:
+
+1.HTML
+    a. Utilize elementos semânticos como <header>, <nav>,   <main>, <section>, <article>, <aside>, e <footer> para estruturar o conteúdo do currículo.
+
+    b. Dentro das seções semânticas, utilize <div> e <span> para organização não semântica.
+    
+    c. Adicione uma imagem (<img>) para o perfil, um título (<h2>) para o nome do candidato, e parágrafos (<p>) para a descrição pessoal e os detalhes de contato.
+
+    d. Crie seções para a experiência profissional e formação acadêmica, utilizando as tags apropriadas.
+
+2.CSS
+
+    a. Aplique estilos semelhantes à versão anterior, ajustando background-color, padding, margin, border, border-radius, font-family, font-size, e font-weight.
+    
+    b. Estilize as seções semânticas e não semânticas para melhorar a aparência do currículo.
+
+Objetivo:
+Praticar a inserção de imagens e a aplicação de estilos CSS, além de compreender a diferença entre elementos semânticos e não semânticos na estrutura de um currículo em HTML.
+
+-->
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Currículo - Thiago Rodrigues</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="profile">
+            <img src="https://media.licdn.com/dms/image/v2/C4D03AQF8yhi5brvR-w/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1620435011350?e=1752105600&v=beta&t=JGYtx8ayCbFG88zohEStijFy1RP-H3nanaiVX09SmSo" alt="Foto de perfil">
+            <h2>Thiago Rodrigues</h2>
+            <p>Engenheiro de Software em formação | Apaixonado por tecnologia</p>
+            <p>Email: throdriguesmg@gmail.com | Tel: (31) 99186-5866</p>
+        </div>
+    </header>
+
+    <main>
+        <section>
+            <h3>Experiência Profissional</h3>
+            <article>
+                <h4>Líder de Hardware e Produção - Getrak</h4>
+                <p><span class="data">2023 - Atual</span> | Gestão de Equipes e Processos.</p>
+            </article>
+
+            <article>
+                <h4>Analista de Hardware e Conectividade (Pleno) - Getrak</h4>
+                <p><span class="data">2020 - 2023</span> | 
+                Desenvolvimento de Soluções IoT.</p>
+            </article>
+        </section>
+
+        <section>
+            <h3>Formação Acadêmica</h3>
+            <article>
+                <h4>Engenharia de Software</h4>
+                <p><span class="data">- Em andamento</span></p>
+                <h4>Desenvolvedor Full-Stack</h4>
+                <p><span class="data">- Em andamento</span></p>
+            </article>
+        </section>
+
+        <aside>
+            <p><strong>Habilidades:</strong> Python, HTML, CSS, JavaScript, SQL, FastAPI, IoT</p>
+        </aside>
+    </main>
+
+    <footer>
+        <p>Currículo gerado como atividade prática. &copy; 2025 Thiago Rodrigues</p>
+    </footer>
+</body>
+</html>
