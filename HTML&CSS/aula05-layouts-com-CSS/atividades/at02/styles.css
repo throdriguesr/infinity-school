@@ -1,0 +1,17 @@
+.container {
+    position: relative;
+    width: 400px;
+    height: 200px;
+    background-color: #87CEFA;
+    border: 2px solid #000;
+    padding: 20px;
+}
+
+.bloco-interno {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background-color: #FFD700;
+    padding: 10px;
+    border: 1px solid #000;
+}
