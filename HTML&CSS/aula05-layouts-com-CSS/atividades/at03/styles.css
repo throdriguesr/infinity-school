@@ -1,0 +1,28 @@
+/* Estilo do cabeçalho */
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 60px;
+    background-color: #333;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+}
+
+/* Ajuste para não ficar escondido atrás do header */
+body {
+    margin: 0;
+    padding-top: 60px;
+}
+
+/* Estilo da imagem */
+img {
+    width: 100%;
+    display: block;
+    z-index: 2;
+    position: relative;
+}
