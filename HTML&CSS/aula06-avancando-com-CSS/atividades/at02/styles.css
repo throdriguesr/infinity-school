@@ -1,0 +1,19 @@
+.grid-gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+    padding: 20px;
+}
+
+.grid-gallery img {
+    width: 100%;
+    border: 2px solid #ccc;
+    box-shadow: 2px 2px 6px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease, opacity 0.3s ease;
+    cursor: pointer;
+}
+
+.grid-gallery img:hover {
+    transform: scale(1.05);
+    opacity: 0.8;
+}
