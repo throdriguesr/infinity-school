@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.paragrafo-estilizado {
+    color: blue;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+/* Display */
+.exemplo-display-block {
+    display: block;
+    background-color: lightgray;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.exemplo-display-inline {
+    display: inline;
+    background-color: yellow;
+    padding: 10px;
+}
+
+.exemplo-display-none {
+    display: none;
+    background-color: red;
+    padding: 10px;
+}
+
+/* Visibility */
+.visivel {
+    visibility: visible;
+    background-color: lightgreen;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.oculto {
+    visibility: hidden;
+    background-color: pink;
+    padding: 10px;
+    margin-top: 10px;
+}
