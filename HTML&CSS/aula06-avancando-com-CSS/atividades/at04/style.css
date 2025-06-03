@@ -1,0 +1,15 @@
+.texto {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.texto::first-letter {
+    font-size: 30px;
+    color: blue;
+    font-weight: bold;
+}
+
+.texto::first-line {
+    color: darkgreen;
+    font-style: italic;
+}
