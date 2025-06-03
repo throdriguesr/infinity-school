@@ -1,0 +1,15 @@
+.texto {
+    font-size: 18px;
+}
+
+.texto::before {
+    content: "Início: ";
+    color: blue;
+    margin-right: 8px;
+}
+
+.texto::after {
+    content: " Fim.";
+    color: red;
+    margin-left: 8px;
+}
