@@ -1,0 +1,27 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: 50px;
+    background-color: #f2f2f2;
+}
+
+.caixa {
+    width: 100px;
+    height: 100px;
+    background-color: #3498db;
+    border-radius: 10px;
+    position: relative;
+    animation: mover 2s linear infinite;
+}
+
+@keyframes mover {
+    0% {
+        left: 0;
+    }
+    50% {
+        left: 200px;
+    }
+    100% {
+        left: 0;
+    }
+}
