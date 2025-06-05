@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: 50px;
+    background-color: #f2f2f2;
+}
+
+.btn {
+    background-color: #e67e22;
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.caixa-animada {
+    width: 100px;
+    height: 100px;
+    background-color: #3498db;
+    border-radius: 10px;
+    position: relative;
+    margin: 50px auto;
+    animation: animacao 4s infinite;
+}
+
+@keyframes animacao {
+    0% {
+        left: 0;
+        opacity: 1;
+        background-color: #3498db;
+    }
+    25% {
+        left: 100px;
+        opacity: 0.7;
+        background-color: #9b59b6;
+    }
+    50% {
+        left: 200px;
+        opacity: 0.5;
+        background-color: #e74c3c;
+    }
+    75% {
+        left: 100px;
+        opacity: 0.7;
+        background-color: #f1c40f;
+    }
+    100% {
+        left: 0;
+        opacity: 1;
+        background-color: #3498db;
+    }
+}
