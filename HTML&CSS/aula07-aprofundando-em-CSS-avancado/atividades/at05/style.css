@@ -1,0 +1,56 @@
+/* Variáveis para tamanhos padrão (tela grande) */
+:root {
+    --tamanho-fonte-h1: 36px;
+    --tamanho-fonte-p: 18px;
+    --espacamento: 30px;
+}
+
+/* Estilo base */
+body {
+    background-color: #f0f0f0;
+    color: #333333;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: var(--espacamento);
+}
+
+h1 {
+    font-size: var(--tamanho-fonte-h1);
+    margin-bottom: var(--espacamento);
+}
+
+p {
+    font-size: var(--tamanho-fonte-p);
+    margin-bottom: var(--espacamento);
+}
+
+.btn {
+    background-color: #3498db;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    opacity: 0.8;
+}
+
+/* Responsividade para telas médias */
+@media (max-width: 768px) {
+    :root {
+        --tamanho-fonte-h1: 28px;
+        --tamanho-fonte-p: 16px;
+        --espacamento: 20px;
+    }
+}
+
+/* Responsividade para telas pequenas */
+@media (max-width: 480px) {
+    :root {
+        --tamanho-fonte-h1: 24px;
+        --tamanho-fonte-p: 14px;
+        --espacamento: 15px;
+    }
+}
