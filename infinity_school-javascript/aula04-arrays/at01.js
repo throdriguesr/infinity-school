@@ -1,4 +1,5 @@
 // Atividade 01
+//
 // Primeiro, crie um array chamado cores contendo os seguintes elementos:
 // Vermelho, Verde, Azul, Amarelo.
 // Em seguida, acesse e exiba no console o elemento na posição 3.
