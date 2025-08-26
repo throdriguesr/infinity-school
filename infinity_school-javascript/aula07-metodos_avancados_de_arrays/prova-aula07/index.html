@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerenciador de Nomes</title>
+</head>
+<body>
+    <h1>Gerenciador de Nomes</h1>
+
+    <div>
+        <h2>Adicionar Nome</h2>
+        <input type="text" id="inputNome" placeholder="Digite um nome">
+        <button onclick="adicionarNome()">Adicionar</button>
+    </div>
+
+    <div>
+        <h2>Filtrar Nomes por Letra Inicial</h2>
+        <input type="text" id="inputLetra" placeholder="Digite a letra inicial">
+        <button onclick="filtrarNomes()">Filtrar</button>
+    </div>
+
+    <div>
+        <h2>Buscar Nome Específico</h2>
+        <input type="text" id="inputBusca" placeholder="Digite o nome para buscar">
+        <button onclick="buscarNome()">Buscar</button>
+    </div>
+
+    <div>
+        <h2>Transformar Nomes em Maiúsculas</h2>
+        <button onclick="transformarNomes()">Transformar</button>
+    </div>
+
+    <div>
+        <h2>Verificar se todos os nomes têm mais de 3 caracteres</h2>
+        <button onclick="verificarNomes()">Verificar</button>
+    </div>
+
+    <h2>Resultados:</h2>
+    <pre id="resultado"></pre>
+
+    <script src="script.js"></script>
+</body>
+</html>
