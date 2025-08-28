@@ -1,7 +1,6 @@
 /*
 Atividade 02
-Crie um objeto chamado pessoa com as
-propriedades nome, idade, e profissao.
+Crie um objeto chamado pessoa com as propriedades nome, idade, e profissao.
 
 Em seguida:
 Altere a propriedade profissao para um novo valor.
@@ -9,8 +8,7 @@ Adicione uma nova propriedade chamada cidade ao objeto.
 Exiba no console o objeto completo após as modificações.
 
 Objetivo:
-Praticar a manipulação de objetos, alterando propriedades existentes,
-adicionando novas propriedades, e exibindo o objeto atualizado.
+Praticar a manipulação de objetos, alterando propriedades existentes, adicionando novas propriedades, e exibindo o objeto atualizado.
 */
 
 let pessoa = {
