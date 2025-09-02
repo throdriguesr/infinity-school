@@ -1,7 +1,6 @@
 /*
 Atividade 04
-Crie um array chamado livros, onde cada elemento do array é um
-objeto representando um livro, com as seguintes propriedades:
+Crie um array chamado livros, onde cada elemento do array é um objeto representando um livro, com as seguintes propriedades:
 
 titulo: string com o título do livro.
 autor: string com o nome do autor.
