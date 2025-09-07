@@ -1,0 +1,14 @@
+/* Estilo para tarefas concluídas */
+.concluida {
+  text-decoration: line-through;
+  color: gray;
+}
+
+/* Estilo da lista e botões */
+li {
+  margin: 5px 0;
+}
+
+button {
+  margin-left: 10px;
+}
