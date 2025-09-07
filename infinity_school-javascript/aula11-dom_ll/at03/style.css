@@ -1,0 +1,50 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 20px;
+}
+
+input, textarea {
+  width: 300px;
+  padding: 8px;
+  margin: 5px 0;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+textarea {
+  height: 60px;
+}
+
+button {
+  padding: 8px 20px;
+  cursor: pointer;
+  border: none;
+  background-color: #ff9800;
+  color: white;
+  font-size: 14px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+button:hover {
+  background-color: #e68a00;
+}
+
+#container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Estilo dos cartões */
+.cartao {
+  width: 320px;
+  border: 1px solid #000;
+  border-radius: 8px;
+  padding: 10px;
+  margin: 10px 0;
+  background-color: #f2f2f2;
+  text-align: left;
+}

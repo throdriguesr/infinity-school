@@ -1,0 +1,41 @@
+<!--
+Atividade 03
+Nesta atividade, você vai criar um botão que adiciona cartões de tarefas em uma seção da página.
+Cada cartão terá um título e uma descrição, que são fornecidos pelo usuário através de campos de texto.
+
+Passo a Passo:
+Crie dois campos de texto (<input> e <textarea>) para o título e a descrição da tarefa, além de um botão para adicionar os cartões.
+
+No JavaScript, use o createElement() para criar um novo <div> que representará o cartão, contendo um título (<h3>) e um parágrafo (<p>).
+
+Adicione os cartões à página sempre que o botão for clicado.
+
+Objetivo:
+Aprender a criar elementos mais complexos dinamicamente, manipulando diversos elementos como <div>, <h3> e <p>.
+-->
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Atividade 03</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Adicionar Cartões de Tarefa</h1>
+
+  <!-- Campo para título -->
+  <input type="text" id="tituloInput" placeholder="Título da tarefa">
+
+  <!-- Campo para descrição -->
+  <textarea id="descricaoInput" placeholder="Descrição da tarefa"></textarea>
+
+  <!-- Botão para adicionar cartão -->
+  <button id="adicionarCartao">Adicionar Cartão</button>
+
+  <!-- Seção para os cartões -->
+  <section id="container"></section>
+
+  <script src="script.js"></script>
+</body>
+</html>
