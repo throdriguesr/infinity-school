@@ -1,0 +1,37 @@
+<!--
+Atividade 02
+Nesta atividade, você vai criar um botão que permite adicionar itens a uma lista (<ul>) dinamicamente sempre que for clicado.
+
+Passo a Passo:
+Crie um botão e uma lista (<ul>) vazia no HTML.
+
+No JavaScript, use o método createElement() para criar novos itens da lista (<li>) e adicione-os à lista quando o botão for clicado.
+
+Utilize um campo de texto (<input>) para permitir que o usuário digite o conteúdo do novo item da lista.
+
+Objetivo:
+Praticar a manipulação do DOM e o uso de event listeners para criar interações com o usuário.
+-->
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Atividade 02</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Adicionar itens à lista</h1>
+
+  <!-- Campo para digitar o item -->
+  <input type="text" id="itemInput" placeholder="Digite um item">
+
+  <!-- Botão para adicionar item -->
+  <button id="adicionarItem">Adicionar Item</button>
+
+  <!-- Lista vazia -->
+  <ul id="lista"></ul>
+
+  <script src="script.js"></script>
+</body>
+</html>
