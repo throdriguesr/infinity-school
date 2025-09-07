@@ -1,0 +1,44 @@
+<!--
+Atividade 03
+Crie uma página HTML com uma imagem e um link. Utilize JavaScript para alterar os atributos
+desses elementos de forma dinâmica quando um botão for clicado.
+
+Crie uma estrutura HTML com:
+Uma imagem com o id="minhaImagem".
+
+Um link com o id="meuLink".
+
+Um botão com o id="meuBotao".
+
+Quando o botão for clicado:
+Use setAttribute() para alterar o src da imagem para uma nova URL.
+
+Use setAttribute() para alterar o href do link para um novo endereço.
+
+Objetivo:
+Praticar o uso de setAttribute() para alterar atributos de elementos HTML, como src de
+imagens e href de links, dinamicamente.
+-->
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Atividade 03</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Alteração de atributos</h1>
+
+  <!-- Imagem inicial -->
+  <img id="minhaImagem" src="https://www.freepnglogos.com/uploads/google-logo-png/file-google-logo-svg-wikimedia-commons-23.png" alt="Imagem inicial">
+
+  <!-- Link inicial -->
+  <p><a id="meuLink" href="https://google.com" target="_blank">Acesse o Google</a></p>
+
+  <!-- Botão para alterar atributos -->
+  <button id="meuBotao">Alterar Atributos</button>
+
+  <script src="script.js"></script>
+</body>
+</html>
