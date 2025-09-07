@@ -1,0 +1,42 @@
+<!--
+Atividade 04
+Crie uma página HTML com um botão que adicione novos parágrafos e outro botão que remova o último
+parágrafo adicionado. Utilize appendChild() para adicionar e removeChild() para remover elementos
+dinamicamente.
+
+Crie uma estrutura HTML com:
+Um botão com o id="adicionarParagrafo".
+Um botão com o id="removerParagrafo".
+Uma div vazia com o id="container" onde os parágrafos serão inseridos.
+
+Quando o botão "Adicionar Parágrafo" for clicado:
+Use appendChild() para adicionar um novo parágrafo dentro da div.
+
+Quando o botão "Remover Parágrafo" for clicado:
+Use removeChild() para remover o último parágrafo adicionado.
+
+Objetivo:
+Praticar o uso de appendChild() para adicionar novos elementos ao DOM e removeChild() para remover
+elementos existentes, proporcionando uma interação dinâmica na página.
+-->
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Atividade 04</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Adicionar e remover parágrafos</h1>
+
+  <!-- Botões -->
+  <button id="adicionarParagrafo">Adicionar Parágrafo</button>
+  <button id="removerParagrafo">Remover Parágrafo</button>
+
+  <!-- Container para os parágrafos -->
+  <div id="container"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
