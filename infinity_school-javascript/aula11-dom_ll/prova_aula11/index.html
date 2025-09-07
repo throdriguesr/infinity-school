@@ -1,0 +1,60 @@
+<!--
+[JSIA-A11] Desenvolva uma aplicação web simples utilizando Eventos DOM, atribuição de eventos e o método preventDefault() para gerenciar a interação com um formulário. O projeto permitirá que o usuário preencha e envie informações sem recarregar a página, validando os dados antes do seu envio.
+
+Requisitos do Projeto:
+a) Um formulário com os seguintes elementos:
+- Um campo de texto para o nome de usuário e senha.
+- Um campo para telefone.
+- Um campo para data de nascimento.
+- Um campo de e-mail.
+- Um botão para envio.
+
+b) Atribuir Eventos ao Formulário:
+- Use o método addEventListener() para detectar o evento de envio do formulário (submit).
+
+c) Prevenindo Comportamento Padrão:
+- No evento de envio, utilize preventDefault() para impedir que a página seja recarregada ao enviar o formulário.
+
+d) Validação Simples:
+- Verifique se os campos não estão vazios.
+- Caso um campo esteja vazio, exiba uma mensagem de erro no console e não permita o envio.
+- Utilize o "type" correspondente para cada tipo de dado a ser inserido.
+
+e) Adicionando Informações Dinamicamente:
+- Caso os dados sejam válidos, crie um novo elemento HTML com os dados preenchidos.
+- Use o método createElement() para criar os elementos dinamicamente e appendChild() para adicioná-los à lista.
+
+f) Botão de Reset:
+- Adicione um botão "Limpar Lista" que, ao ser clicado, remova todos os elementos adicionados à lista.
+- Use o método innerHTML = "" para limpar a lista.
+-->
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Prova aula 11</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Formulário com validação e lista dinâmica</h1>
+
+  <!-- Formulário -->
+  <form id="meuFormulario">
+    <input type="text" id="usuario" placeholder="Nome de usuário">
+    <input type="password" id="senha" placeholder="Senha">
+    <input type="tel" id="telefone" placeholder="Telefone">
+    <input type="date" id="nascimento">
+    <input type="email" id="email" placeholder="E-mail">
+    <button type="submit">Enviar</button>
+  </form>
+
+  <!-- Botão para limpar a lista -->
+  <button id="limparLista">Limpar Lista</button>
+
+  <!-- Lista para mostrar os dados -->
+  <ul id="listaDados"></ul>
+
+  <script src="script.js"></script>
+</body>
+</html>
