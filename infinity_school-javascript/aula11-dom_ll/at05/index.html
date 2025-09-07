@@ -1,0 +1,37 @@
+<!--
+Atividade 05
+Passo a Passo
+Crie um formulário simples com um campo de texto e um botão de envio.
+
+Use o evento submit para capturar os dados do formulário quando ele for enviado.
+
+Implemente preventDefault() para impedir o envio do formulário.
+
+Exiba o valor inserido no campo de texto na página.
+
+Objetivo:
+Aprender a utilizar o objeto de evento para prevenir o comportamento padrão de um formulário, como seu envio, e capturar os dados inseridos pelo usuário.
+-->
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Atividade 05</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Formulário Simples</h1>
+
+  <!-- Formulário -->
+  <form id="meuFormulario">
+    <input type="text" id="textoInput" placeholder="Digite algo">
+    <button type="submit">Enviar</button>
+  </form>
+
+  <!-- Parágrafo para mostrar o valor -->
+  <p id="resultado"></p>
+
+  <script src="script.js"></script>
+</body>
+</html>
