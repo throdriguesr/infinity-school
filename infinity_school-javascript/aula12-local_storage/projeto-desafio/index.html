@@ -1,0 +1,57 @@
+<!--
+Requisitos: 
+
+Criar um formulário que permita adicionar uma tarefa com um campo de texto e um botão.
+
+Exibir todas as tarefas em uma lista, com cada tarefa acompanhada de botões "Editar" e "Excluir".
+
+Armazenar todas as tarefas no localStorage como um array de objetos.
+
+Implementar a funcionalidade de edição de tarefas:
+- Quando o botão "Editar" for clicado, a tarefa selecionada deve ser carregada no campo de texto para permitir a edição.
+- Atualizar o localStorage com as alterações.
+
+Implementar a funcionalidade de exclusão de tarefas:
+- Remover a tarefa selecionada do localStorage e atualizar a lista.
+
+As tarefas devem ser carregadas do localStorage ao abrir a página.
+
+Passo a Passo: 
+Inicie com uma estrutura básica de HTML contendo um campo de entrada, um botão para adicionar tarefas e uma lista (<ul>) para exibi-las.
+
+Implemente funções para:
+- Adicionar uma nova tarefa ao array no localStorage.
+- Renderizar a lista de tarefas na tela.
+- Editar uma tarefa selecionada e atualizar o localStorage.
+- Excluir uma tarefa e atualizar o localStorage.
+
+Utilize JSON.stringify() e JSON.parse() para armazenar e manipular os dados de forma adequada.
+
+Objetivo: Criar um gerenciador de tarefas que permita adicionar, listar, editar e excluir tarefas, com todas as alterações sendo salvas no localStorage.
+-->
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Atividade 06</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Gerenciador de Tarefas</h1>
+
+  <!-- Campo para digitar a tarefa -->
+  <input type="text" id="tarefaInput" placeholder="Digite uma tarefa">
+
+  <!-- Botão para adicionar ou atualizar -->
+  <button id="adicionarBtn">Adicionar Tarefa</button>
+
+  <!-- Botão para limpar todas as tarefas -->
+  <button id="limparBtn">Limpar Lista</button>
+
+  <!-- Lista onde as tarefas serão exibidas -->
+  <ul id="listaTarefas"></ul>
+
+  <script src="script.js"></script>
+</body>
+</html>
