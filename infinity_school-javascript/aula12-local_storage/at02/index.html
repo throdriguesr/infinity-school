@@ -1,0 +1,35 @@
+<!--
+Atividade 02
+Passo a Passo
+Crie um campo de texto (<input>) para inserir uma tarefa e um botão para salvar a tarefa.
+
+Crie dois botões: um para remover a tarefa específica e outro para limpar todas as tarefas do localStorage.
+
+Use setItem() para salvar a tarefa, removeItem() para apagar uma tarefa específica e clear() para limpar todos os itens.
+
+Objetivo:
+Praticar o uso de métodos para apagar dados armazenados no localStorage
+-->
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Atividade 02</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>LocalStorage - Tarefas</h1>
+
+  <!-- Campo para digitar a tarefa -->
+  <input type="text" id="tarefaInput" placeholder="Digite uma tarefa">
+  <button id="salvarBtn">Salvar Tarefa</button>
+  <button id="removerBtn">Remover Tarefa</button>
+  <button id="limparBtn">Limpar Todas</button>
+
+  <!-- Exibição das tarefas -->
+  <p id="exibirTarefa"></p>
+
+  <script src="script.js"></script>
+</body>
+</html>
