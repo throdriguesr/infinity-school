@@ -1,0 +1,33 @@
+<!---
+Atividade 01
+Passo a Passo
+Crie um campo de texto (<input>) e um botão (<button>) para inserir o nome do usuário.
+
+Ao clicar no botão, armazene o nome no localStorage usando setItem().
+
+Recupere o nome armazenado ao carregar a página usando getItem() e exiba-o na tela.
+
+Objetivo:
+Praticar o uso de métodos para armazenar e recuperar informações do localStorage
+-->
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Atividade 01</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>LocalStorage - Nome do Usuário</h1>
+
+  <!-- Campo de texto e botão -->
+  <input type="text" id="nomeUsuario" placeholder="Digite seu nome">
+  <button id="salvarBtn">Salvar Nome</button>
+
+  <!-- Onde o nome será exibido -->
+  <p id="exibirNome"></p>
+
+  <script src="script.js"></script>
+</body>
+</html>
