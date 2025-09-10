@@ -1,0 +1,59 @@
+/* Tema claro */
+.tema-claro {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+/* Tema escuro */
+.tema-escuro {
+  background-color: #1f1f1f;
+  color: #f0f0f0;
+}
+
+/* Tamanhos de fonte */
+.fonte-pequena {
+  font-size: 14px;
+}
+
+.fonte-media {
+  font-size: 18px;
+}
+
+.fonte-grande {
+  font-size: 22px;
+}
+
+/* Estilo básico dos controles */
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 20px;
+  transition: background-color 0.2s, color 0.2s;
+}
+
+label, select, button {
+  display: inline-block;
+  margin: 8px;
+}
+
+select {
+  padding: 6px;
+}
+
+button {
+  padding: 8px 14px;
+  cursor: pointer;
+  border: none;
+  background-color: #4CAF50;
+  color: white;
+  border-radius: 4px;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+#status {
+  margin-top: 16px;
+  font-weight: bold;
+}
