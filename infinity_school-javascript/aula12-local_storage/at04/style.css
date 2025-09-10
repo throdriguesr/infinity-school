@@ -1,0 +1,56 @@
+/* Tema claro */
+.tema-claro {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+/* Tema escuro */
+.tema-escuro {
+  background-color: #1e1e1e;
+  color: #f5f5f5;
+}
+
+/* Fonte pequena */
+.fonte-pequena {
+  font-size: 14px;
+}
+
+/* Fonte média */
+.fonte-media {
+  font-size: 18px;
+}
+
+/* Fonte grande */
+.fonte-grande {
+  font-size: 24px;
+}
+
+/* Estilo geral */
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 20px;
+  transition: all 0.2s;
+}
+
+label, select, button {
+  margin: 8px;
+}
+
+button {
+  padding: 8px 14px;
+  cursor: pointer;
+  border: none;
+  border-radius: 4px;
+  background-color: #4CAF50;
+  color: white;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+#status {
+  margin-top: 15px;
+  font-weight: bold;
+}

@@ -1,25 +1,25 @@
 <!--
-Atividade 03
+Atividade 04
 Passo a Passo
 Crie um formulário com seletores para o tema (claro/escuro) e tamanho da fonte (pequeno, médio, grande).
 
 Ao clicar no botão "Salvar", armazene as preferências como um objeto no localStorage.
 
-Recupere as preferências do usuário ao carregar a página e aplique-as ao conteúdo.
+Recupere as preferências do usuário ao carregar a página e aplique-as ao conteúdo
 
 Objetivo:
-Praticar o uso de métodos para armazenar um objeto no localStorage e recuperá-lo
---> 
+Praticar o uso de JSON.stringify() e JSON.parse() para armazenar um objeto no localStorage e recuperá-lo
+-->
 
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
   <meta charset="UTF-8">
-  <title>Atividade 03</title>
+  <title>Atividade 04</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1>Preferências de tema e fonte</h1>
+  <h1>Configurações de Exibição</h1>
 
   <!-- Seletor de tema -->
   <label for="temaSelect">Tema:</label>
@@ -28,7 +28,7 @@ Praticar o uso de métodos para armazenar um objeto no localStorage e recuperá-
     <option value="escuro">Escuro</option>
   </select>
 
-  <!-- Seletor de tamanho de fonte -->
+  <!-- Seletor de tamanho da fonte -->
   <label for="fonteSelect">Tamanho da fonte:</label>
   <select id="fonteSelect">
     <option value="pequeno">Pequeno</option>
@@ -36,10 +36,10 @@ Praticar o uso de métodos para armazenar um objeto no localStorage e recuperá-
     <option value="grande">Grande</option>
   </select>
 
-  <!-- Botão para salvar preferências -->
+  <!-- Botão salvar -->
   <button id="salvarBtn">Salvar</button>
 
-  <!-- Exibe o status atual -->
+  <!-- Status para mostrar as escolhas -->
   <p id="status"></p>
 
   <script src="script.js"></script>
