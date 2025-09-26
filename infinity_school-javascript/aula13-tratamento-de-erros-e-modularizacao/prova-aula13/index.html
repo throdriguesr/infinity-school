@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Prova aula 13</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Sistema de Cadastro de Usuários</h1>
+
+  <form id="cadastroForm">
+    <div>
+      <input type="text" id="nome" placeholder="Nome completo">
+      <p class="erro" id="erro-nome"></p>
+    </div>
+
+    <div>
+      <input type="text" id="usuario" placeholder="Usuário">
+      <p class="erro" id="erro-usuario"></p>
+    </div>
+
+    <div>
+      <input type="password" id="senha" placeholder="Senha">
+      <p class="erro" id="erro-senha"></p>
+    </div>
+
+    <div>
+      <input type="email" id="email" placeholder="Email">
+      <p class="erro" id="erro-email"></p>
+    </div>
+
+    <div>
+      <input type="number" id="idade" placeholder="Idade">
+      <p class="erro" id="erro-idade"></p>
+    </div>
+
+    <button type="submit">Cadastrar</button>
+  </form>
+
+  <p id="mensagemFinal"></p>
+
+  <script src="script.js"></script>
+</body>
+</html>
