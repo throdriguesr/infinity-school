@@ -1,0 +1,104 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #121212;
+  color: #e0e0e0;
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.container {
+  background: #1e1e1e;
+  padding: 20px 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.7);
+  width: 450px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #ffffff;
+}
+
+form {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+input {
+  flex: 1;
+  padding: 8px;
+  border: 1px solid #444;
+  border-radius: 4px;
+  background: #2b2b2b;
+  color: #fff;
+}
+
+button {
+  padding: 8px 12px;
+  cursor: pointer;
+  border: none;
+  background-color: #25fd0dde;
+  color: white;
+  border-radius: 4px;
+  transition: background 0.3s;
+}
+
+button:hover {
+  background-color: #25fd0dbe;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #2b2b2b;
+  margin-bottom: 10px;
+  padding: 10px 12px;
+  border-radius: 6px;
+  transition: background 0.3s;
+  color: #e0e0e0;
+}
+
+li.concluida {
+  background: #3a3a3a;
+  color: #888888;
+  text-decoration: line-through;
+}
+
+li:hover {
+  background: #3d3d3d;
+}
+
+li div button {
+  margin-left: 5px;
+  padding: 4px 8px;
+  border-radius: 4px;
+}
+
+li button.excluir {
+  background: #ff4d4d;
+  color: white;
+  border: none;
+}
+
+li button.excluir:hover {
+  background: #ff1a1a;
+}
+
+li button.editar {
+  background: #f9d923;
+  color: black;
+  border: none;
+}
+
+li button.editar:hover {
+  background: #f4c20d;
+}
