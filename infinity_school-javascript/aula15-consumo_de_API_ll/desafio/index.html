@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Dashboard de Produtos</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Produtos da Loja</h1>
+
+  <button id="filtroEstoque">Filtrar apenas produtos com estoque</button>
+
+  <table>
+    <thead>
+      <tr>
+        <th>Nome</th>
+        <th>Preço</th>
+        <th>Estoque</th>
+        <th>Data de Lançamento</th>
+      </tr>
+    </thead>
+    <tbody id="tabelaProdutos"></tbody>
+  </table>
+
+  <div class="paginacao">
+    <button id="anterior">Anterior</button>
+    <span id="paginaAtual">1</span>
+    <button id="proximo">Próximo</button>
+  </div>
+
+  <p id="mensagemErro"></p>
+
+  <script src="script.js"></script>
+</body>
+</html>

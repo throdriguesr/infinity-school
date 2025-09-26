@@ -1,0 +1,33 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin-top: 30px;
+}
+
+table {
+  margin: 20px auto;
+  border-collapse: collapse;
+  width: 80%;
+}
+
+th, td {
+  border: 1px solid #ccc;
+  padding: 8px;
+  text-align: center;
+}
+
+button {
+  margin: 5px;
+  padding: 6px 12px;
+  cursor: pointer;
+}
+
+.paginacao {
+  margin-top: 10px;
+}
+
+#mensagemErro {
+  color: red;
+  font-weight: bold;
+  margin-top: 10px;
+}
